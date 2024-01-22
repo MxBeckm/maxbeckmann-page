@@ -33,7 +33,7 @@ const Work = () => (
       <WorkImage src="/images/works/sunshine_02.png" alt="Sunshine Analysis"></WorkImage>
       The solar radiation for the year 2023 was calculated using the area solar radiation tool. The units of our Energy Potential Mittersill layer are Watt per square meter. The south facing mountain side has, as expected, at lot more energy potential than the north facing one. Generally, the potential of the city seems to be unaffected by the mountains surrounding it.
 
-      <P>Let's see which rooftops of the Mittersill area have the highest average potential throughout the year.
+      <P>Let&apos;s see which rooftops of the Mittersill area have the highest average potential throughout the year.
       </P>
   
       <WorkImage src="/images/works/sunshine_03.png" alt="Sunshine Analysis"></WorkImage>

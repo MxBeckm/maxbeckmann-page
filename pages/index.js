@@ -120,7 +120,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019 - [Uni]</BioYear>
-          Awards: Esri Award „EDC Student of the Year 2019" with Surveillance of Room Occupancy within the Scope of FHWS Campus Information System.
+          Awards: Esri Award &ldquo;EDC Student of the Year 2019&quot; with Surveillance of Room Occupancy within the Scope of FHWS Campus Information System.
         </BioSection>
         <BioSection>
         <BioYear>05/2019 – 09/2019 - [Work]</BioYear>
@@ -165,7 +165,7 @@ const Home = () => (
         <BioSection>
           <BioYear>2019 – 2023 - [Voluntary]</BioYear>
           <Paragraph>Institution  : pics4peace e.V.</Paragraph>
-          <Paragraph>Work         : Moderation and participation in workshops, e.g. "For the freedom of the word", in street surveys and discussions, e.g. "punsch4peace", discussion at the Frankfurt Book Fair with Tanja Kinkel and Winfried Muthesius "Against extremism, for democracy", in films for YouTube, other IT support. </Paragraph>
+          <Paragraph>Work         : Moderation and participation in workshops, e.g. &quot;For the freedom of the word&quot;, in street surveys and discussions, e.g. &quot;punsch4peace&quot;, discussion at the Frankfurt Book Fair with Tanja Kinkel and Winfried Muthesius &quot;Against extremism, for democracy&quot;, in films for YouTube, other IT support. </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>2014 – present - [Sports]</BioYear>
