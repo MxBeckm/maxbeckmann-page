@@ -103,13 +103,13 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>03/2019 – 10/2023 - [Work]</BioYear>
-          <Paragraph>Eployer   : Interuniversity Institution Wissenschaft & Kunst</Paragraph>
+          <Paragraph>Employer   : Interuniversity Institution Wissenschaft & Kunst</Paragraph>
           <Paragraph>Position  : Web Developer</Paragraph>
           <Paragraph>Tasks     : Creation of a web-based map application with Angular and Leaflet, API query and data preparation with Python, data backup and forwarding with PostgreSQL and Geoserver </Paragraph> 
         </BioSection>
         <BioSection>
           <BioYear>03/2020 – 06/2023 - [Work]</BioYear>
-          <Paragraph>Eployer   : Geosocial Analytics Lab Salzburg</Paragraph>
+          <Paragraph>Employer   : Geosocial Analytics Lab Salzburg</Paragraph>
           <Paragraph>Position  : Scientific Research Assistant</Paragraph>
           <Paragraph>Tasks     : Spatio-Temporal analysis of geosocial media data, data science, training of large language models, semantic analysis</Paragraph> 
           <Paragraph>            Tutor for Practice of Software Development (Java) </Paragraph> 
@@ -124,26 +124,26 @@ const Home = () => (
         </BioSection>
         <BioSection>
         <BioYear>05/2019 – 09/2019 - [Work]</BioYear>
-        <Paragraph>Eployer   : Insitute for Geovisualisation at the Technische Hochschule Würzburg-Schweinfurt </Paragraph>
+        <Paragraph>Employer   : Insitute for Geovisualisation at the Technische Hochschule Würzburg-Schweinfurt </Paragraph>
         <Paragraph>Position  : Scientific Research Assistant</Paragraph>
         <Paragraph>Tasks     : Assistent for content creation of an E-Learning platform in the scope of the Smart VHB Project.
                       Project supervison of Student Projects (Creation of a VR-Experience around the historic region of the Frauenkirche in Munich ~ Set in the 15. century.)</Paragraph>  
         </BioSection>
         <BioSection>
           <BioYear>10/2017 – 10/2019 [Work]</BioYear>
-          <Paragraph>Eployer   : Angermeier ING Gmbh</Paragraph>
+          <Paragraph>Employer   : Angermeier ING Gmbh</Paragraph>
           <Paragraph>Position  : Working Student</Paragraph>
           <Paragraph>Tasks     : Surveying, Building Inventory, Laserscanning, 3D Modelling in REVIT, Construction planning in AutoCAD </Paragraph>       
         </BioSection>
         <BioSection>
           <BioYear>10/2016 – 10/2017 [Work]</BioYear>
-          <Paragraph>Eployer   : geoinform AG</Paragraph>
+          <Paragraph>Employer   : geoinform AG</Paragraph>
           <Paragraph>Position  : Student Assistant</Paragraph>
           <Paragraph>Tasks     :	GNSS-Surveying, Creation of maps using CAD</Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>10/2014 – 05/2015 [Work]</BioYear>
-          <Paragraph>Eployer   : h&m Würzburg</Paragraph>
+          <Paragraph>Employer   : h&m Würzburg</Paragraph>
           <Paragraph>Position  : Sales Advisor</Paragraph>
         </BioSection>
         <BioSection>
