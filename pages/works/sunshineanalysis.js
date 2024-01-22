@@ -2,16 +2,12 @@ import {
   Container,
   Badge,
   Link,
-  List,
-  ListItem,
-  SimpleGrid,
-  UnorderedList,
+  Box,
   Heading,
   Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage} from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
@@ -21,78 +17,29 @@ const Work = () => (
       SunshineAnalysis <Badge>2022</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
+       A sunshine analysis done on the Mittersill area, in order to figure out houses which are best suited for solar panels.
+       The interactive ArcGis Story Map can be found here: 
       </P>
-      <P>
-        This service has been closed. Thank you for over 130,000 registered
-        users!
-      </P>
-      <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>iOS</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-            音楽発掘アプリwalknoteクローズのお知らせ{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
-        </ListItem>
-      </List>
-
+      <Link href="https://storymaps.arcgis.com/stories/18284ee11fc54ba496786055dedff2eb">
+      Sunshine Analysis Story Map
+      </Link>
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Study Area</Center>
       </Heading>
+      <WorkImage src="/images/works/sunshine_01.png" alt="Sunshine Analysis"></WorkImage>
+      <Box>
+      As an area which is famous for skiing and hiking, the Mittersill people recognize the dangers of climate change and want to increase their renewable energy household. To help the people decide if their homes are suitable for photovoltaic panels, the energy potential of the city was calculated. 
+      </Box>
+      <WorkImage src="/images/works/sunshine_02.png" alt="Sunshine Analysis"></WorkImage>
+      The solar radiation for the year 2023 was calculated using the area solar radiation tool. The units of our Energy Potential Mittersill layer are Watt per square meter. The south facing mountain side has, as expected, at lot more energy potential than the north facing one. Generally, the potential of the city seems to be unaffected by the mountains surrounding it.
 
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
-            <Badge mr={2}>リニューアル式</Badge>
-            強力すぎて紹介しそびれていた音楽好きのための神アプリ『walknote』
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="http://www.appbank.net/2011/10/15/iphone-application/309349.php">
-            <Badge mr={2}>appbank</Badge>
-            walknote:
-            CD屋の試聴機が、自分向けになって手元に到着。そんな曲探しアプリ。無料。
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="http://www.danshihack.com/2012/07/18/junp/iphoneapp-walknote.html">
-            <Badge mr={2}>男子ハック</Badge>
-            [おすすめの音楽をレコメンド！ストリーミング再生してくれるiPhoneアプリ「walknote」が素敵。
-          </Link>
-          <ExternalLinkIcon mx="2px" />
-        </ListItem>
-
-        <ListItem>
-          <Badge mr={2}>タブロイド</Badge>
-          <Link href="http://www.tabroid.jp/app/multimedia/2013/05/app.walknote.html">
-            「YOU、これ聴いちゃいなよ」自分好みの曲が勝手に集まる音楽プレーヤー『walknote』
-          </Link>
-          <ExternalLinkIcon mx="2px" />
-        </ListItem>
-      </UnorderedList>
-
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
-      </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      <P>Let's see which rooftops of the Mittersill area have the highest average potential throughout the year.
+      </P>
+  
+      <WorkImage src="/images/works/sunshine_03.png" alt="Sunshine Analysis"></WorkImage>
+      <P>The solar radiation ws caclulated per square meter for each roof. The houses have been colored form orange to red depending on their mean solar radiation per square meter.</P>
+      <WorkImage src="/images/works/sunshine_04.png" alt="Sunshine Analysis"></WorkImage>
+      <P>The to 20 buildings with the highest solar radiation can be seen above. To install solar panels on these houses should proof to be a smart investment.</P>
     </Container>
   </Layout>
 )

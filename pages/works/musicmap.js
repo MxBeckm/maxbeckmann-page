@@ -22,6 +22,7 @@ const Work = () => (
         in Salzburg. The map was created by me as part of a study project and resulted in a 2 year long employment to further
         enhance its functionality and provide support. The map is an intersection between socioeconomic data, georeferenced musical events, and an explorative tool to
         provide insights about where, when and which events happen around salzburg city. 
+        More information about the map can be found at <a href="https://geosocial.at/music-map/">Geosocial</a>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
