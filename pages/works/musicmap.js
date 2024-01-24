@@ -45,7 +45,7 @@ const Work = () => (
       <WorkImage src="/images/works/MusicMap_02.png" alt="MusicMap" />
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="http://human.zgis.at/musicmap/"
+          src="https://human.zgis.at/musicmap/"
           title="Musicmap"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
