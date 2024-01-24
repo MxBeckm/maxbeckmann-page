@@ -57,10 +57,10 @@ const Work = () => (
       </List>
 
 
-      <WorkImage src="/images/works/esda_01.png" alt="ESDA" />
-      <WorkImage src="/images/works/esda_02.png" alt="ESDA" />
-      <WorkImage src="/images/works/esda_03.png" alt="ESDA" />
-      <WorkImage src="/images/works/esda_04.png" alt="ESDA" />
+      <WorkImage src="/images/works/ESDA_01.png" alt="ESDA" />
+      <WorkImage src="/images/works/ESDA_02.png" alt="ESDA" />
+      <WorkImage src="/images/works/ESDA_03.png" alt="ESDA" />
+      <WorkImage src="/images/works/ESDA_04.png" alt="ESDA" />
     </Container>
   </Layout>
 )

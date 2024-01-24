@@ -45,11 +45,11 @@ const VoxelDog = () => {
 
       // (-100.0, -50.0, -300.0) for earth.glb
 
-      const target = new THREE.Vector3(0, 0, -30)
+      const target = new THREE.Vector3(0, -10, -10)
       const initialCameraPosition = new THREE.Vector3(
-        -2000 * Math.sin(0.2 * Math.PI),
-        -1000,
-        -2000 * Math.cos(0.2 * Math.PI)
+        -3000 * Math.sin(0.2 * Math.PI),
+        -1500,
+        -3000 * Math.cos(0.2 * Math.PI)
       )
       
 
@@ -68,7 +68,7 @@ const VoxelDog = () => {
       // For earth.glb
       // camera.zoom = 0.0091
 
-      camera.zoom = 0.04
+      camera.zoom = 0.03
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
 
@@ -96,7 +96,7 @@ const VoxelDog = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
+          const rotSpeed = -easeOutCirc(frame / 850) * Math.PI * 30
 
           camera.position.y = 500
           camera.position.x = p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)

@@ -27,8 +27,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="http://human.zgis.at/musicmap/">
-            http://human.zgis.at/musicmap/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://human.zgis.at/musicmap/">
+            https://human.zgis.at/musicmap/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
