@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbMusicmap from '../public/images/works/MusicMap_01.png'
+import thumbThesis from '../public/images/works/thesis_02.png'
 import thumbSunshineAnalysis from '../public/images/works/SunshineAnalysis_01.png'
 import thumbProximity from '../public/images/works/proximity_01.png'
 import thumbESDA from '../public/images/works/ESDA_01.png'
@@ -19,6 +20,12 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="masterthesis" title="Master Thesis" thumbnail={thumbThesis}>
+          An AI Approach for Detecting Soil Sealing Areas with VHR Image Data
+          </WorkGridItem>
+        </Section>
+
         <Section>
           <WorkGridItem id="musicmap" title="musicmap" thumbnail={thumbMusicmap}>
             An interactive visualization of music events in salzburg city. 
@@ -55,7 +62,7 @@ const Works = () => (
       <Section>
           <WorkGridItem
             id="sunshineanalysis"
-            title="sunshineanalysis"
+            title="Sunshine Analysis"
             thumbnail={thumbSunshineAnalysis}
           >
             Sunshine Analysis on the Mittersill area in Austria.

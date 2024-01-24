@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="musicmap">
     <Container>
       <Title>
-        MusicMap <Badge>2020-</Badge>
+        MusicMap <Badge>2020</Badge>
       </Title>
       <P>
         The Salzburg music map was developed with close collaboration with the wissenschaft und kunst faculty
